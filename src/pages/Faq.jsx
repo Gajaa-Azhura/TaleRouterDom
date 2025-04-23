@@ -1,4 +1,9 @@
-
+import Navbar from "../components/Navbar";
+import Service1 from "../assets/images/services-01.jpg";
+import Service2 from "../assets/images/services-02.jpg";
+import Service3 from "../assets/images/services-03.jpg";
+import Service4 from "../assets/images/services-04.jpg";
+import FaqImage from "../assets/images/faqs-image.jpg";
 function Faq(){
     return(
         <>
@@ -13,7 +18,7 @@ function Faq(){
           </div>
         </div>
         <div className="col-lg-5">
-          <img src="assets/images/faqs-image.jpg" alt=""/>
+          <img src={FaqImage} alt=""/>
         </div>
       </div>
     </div>
@@ -30,25 +35,25 @@ function Faq(){
             <div className="row">
               <div className="col-lg-3">
                 <div className="item">
-                  <img src="assets/images/services-01.jpg" alt="" style={{ maxWidth: "66px", borderRadius: "50%", margin: "0 auto" }}/>
+                  <img src={Service1} alt="" style={{ maxWidth: "66px", borderRadius: "50%", margin: "0 auto" }}/>
                   <h4>Project Introduction</h4>
                 </div>
               </div>
               <div className="col-lg-3">
                 <div className="item">
-                  <img src="assets/images/services-02.jpg" alt="" style={{ maxWidth: "66px", borderRadius: "50%", margin: "0 auto" }}/>
+                  <img src={Service2} alt="" style={{ maxWidth: "66px", borderRadius: "50%", margin: "0 auto" }}/>
                   <h4>Work Development</h4>
                 </div>
               </div>
               <div className="col-lg-3">
                 <div className="item">
-                  <img src="assets/images/services-03.jpg" alt="" style={{ maxWidth: "66px", borderRadius: "50%", margin: "0 auto" }}/>
+                  <img src={Service3} alt="" style={{ maxWidth: "66px", borderRadius: "50%", margin: "0 auto" }}/>
                   <h4>Data Analysis</h4>
                 </div>
               </div>
               <div className="col-lg-3">
                 <div className="item last-item">
-                  <img src="assets/images/services-04.jpg" alt="" style={{ maxWidth: "66px", borderRadius: "50%", margin: "0 auto" }}/>
+                  <img src={Service4} alt="" style={{ maxWidth: "66px", borderRadius: "50%", margin: "0 auto" }}/>
                   <h4>Project Finishing</h4>
                 </div>
               </div>

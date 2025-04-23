@@ -1,4 +1,8 @@
 import happyclient from "../assets/images/happyclient-01.jpg";
+import Logo from "../assets/images/logo.png";
+import AboutUs from "../assets/images/about-us-image.jpg";
+import VideoThumb from "../assets/images/video-thumb.jpg";
+import Navbar from "../components/Navbar";
 function Home(){
     return(
         <>
@@ -17,7 +21,7 @@ function Home(){
           </div>
         </div>
         <div className="col-lg-5 align-self-center">
-          <img src="assets/images/about-us-image.jpg" alt=""/>
+          <img src={AboutUs} alt=""/>
         </div>
       </div>
     </div>
@@ -28,7 +32,7 @@ function Home(){
       <div className="row">
         <div className="col-lg-6">
           <div className="video-thumb">
-            <img src="assets/images/video-thumb.jpg" alt=""/>
+            <img src={VideoThumb} alt=""/>
             <a href="http://youtube.com" target="_blank"><i className="fa fa-play"></i></a>
           </div>
         </div>
@@ -100,7 +104,7 @@ function Home(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                           </div>
                           <div className="col-lg-5 align-self-center">
-                            <img src="assets/images/happyclient-01.jpg" alt=""/>
+                            <img src={happyclient} alt=""/>
                           </div>
                         </div>
                       </div>
@@ -121,7 +125,7 @@ function Home(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                           </div>
                           <div className="col-lg-5 align-self-center">
-                            <img src="assets/images/happyclient-01.jpg" alt=""/>
+                            <img src={happyclient} alt=""/>
                           </div>
                         </div>
                       </div>
@@ -142,7 +146,7 @@ function Home(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                           </div>
                           <div className="col-lg-5 align-self-center">
-                            <img src="assets/images/happyclient-01.jpg" alt=""/>
+                            <img src={happyclient} alt=""/>
                           </div>
                         </div>
                       </div>
@@ -163,7 +167,7 @@ function Home(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                           </div>
                           <div className="col-lg-5 align-self-center">
-                            <img src="assets/images/happyclient-01.jpg" alt=""/>
+                            <img src={happyclient} alt=""/>
                           </div>
                         </div>
                       </div>

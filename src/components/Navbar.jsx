@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "../assets/images/logo.png"
 function Navbar() {
     return(
         <><div className="pre-header" id="top">
@@ -33,14 +34,14 @@ function Navbar() {
                 <div className="col-12">
                     <nav className="main-nav">
                         <a href="index.html" className="logo">
-                            <img src="assets/images/logo.png" alt="" style={{maxWidth: "112px"}}/>
+                            <img src={Logo} alt="" style={{maxWidth: "112px"}}/>
                         </a>
 
                         <ul className="nav">
-                            <Link to="/">Home</Link>
-                            <Link to="/FAQ">FAQ</Link>
-                            <Link to="/AboutUS">About Us</Link>
-                            <Link to="/ContactUs">Contact Us</Link>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/FAQ">FAQ</Link></li>
+                            <li><Link to="/AboutUS">About Us</Link></li>
+                            <li><Link to="/ContactUs">Contact Us</Link></li>
            
                         </ul> 
                      

@@ -1,3 +1,9 @@
+import Navbar from "../components/Navbar";
+import Service1 from "../assets/images/services-01.jpg";
+import Service2 from "../assets/images/services-02.jpg";
+import Service3 from "../assets/images/services-03.jpg";
+import Service4 from "../assets/images/services-04.jpg";
+import LeftImage from "../assets/images/left-infos.jpg";
 function Aboutus(){
     return(
         <>
@@ -17,7 +23,7 @@ function Aboutus(){
             <div className="col-lg-6 col-sm-6">
               <div className="service-item">
                 <div className="icon">
-                  <img src="assets/images/services-01.jpg" alt="discover SEO" className="templatemo-feature"/>
+                  <img src={Service1} alt="discover SEO" className="templatemo-feature"/>
                 </div>
                 <h4>Discover More on Latest SEO Trends</h4>
               </div>
@@ -25,7 +31,7 @@ function Aboutus(){
             <div className="col-lg-6 col-sm-6">
               <div className="service-item">
                 <div className="icon">
-                  <img src="assets/images/services-02.jpg" alt="data analysis" className="templatemo-feature"/>
+                  <img src={Service2} alt="data analysis" className="templatemo-feature"/>
                 </div>
                 <h4>Real-Time Big Data Analysis</h4>
               </div>
@@ -33,7 +39,7 @@ function Aboutus(){
             <div className="col-lg-6 col-sm-6">
               <div className="service-item">
                 <div className="icon">
-                  <img src="assets/images/services-03.jpg" alt="precise data" className="templatemo-feature"/>
+                  <img src={Service3} alt="precise data" className="templatemo-feature"/>
                 </div>
                 <h4>Precise Data Analysis &amp; Prediction</h4>
               </div>
@@ -41,7 +47,7 @@ function Aboutus(){
             <div className="col-lg-6 col-sm-6">
               <div className="service-item">
                 <div className="icon">
-                  <img src="assets/images/services-04.jpg" alt="SEO marketing" className="templatemo-feature"/>
+                  <img src={Service4} alt="SEO marketing" className="templatemo-feature"/>
                 </div>
                 <h4>SEO Marketing &amp; Social Media</h4>
               </div>
@@ -63,7 +69,7 @@ function Aboutus(){
             <div className="row">
               <div className="col-lg-6">
                 <div className="left-image">
-                  <img src="assets/images/left-infos.jpg" alt=""/>
+                  <img src={LeftImage} alt=""/>
                 </div>
               </div>
               <div className="col-lg-6">
